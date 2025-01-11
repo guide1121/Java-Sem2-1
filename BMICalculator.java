@@ -5,10 +5,12 @@ public class BMICalculator {
     public static void main(String[] args) {
 
         DecimalFormat df = new DecimalFormat("0.00"); //กำหนดจำนวนจุดทศนิยมที่ต้องการ
-        Scanner sc = new Scanner(System.in); //เปิดใช้งานตัว Input
+        Scanner sc = new Scanner(System.in); //เปิดใช้งานตัว Input0
 
         System.out.print("Enter weight in kilograms: ");
+
         double weight = sc.nextDouble(); //nextDouble() ใช้ในการ Input ค่าที่เป็น Double เท่านั้น
+        
         System.out.print("Enter height in meters: ");
         double height = sc.nextDouble(); 
 
