@@ -5,8 +5,8 @@ public class LetterPrinter {
     public static void main(String[] args) {
         System.out.println("XXXX");
         System.out.println("X");
-        System.out.println("XXXX");
-        System.out.println("   X");
+        System.out.println("X XX");
+        System.out.println("X  X");
         System.out.println("XXXX");
         System.out.println();
         System.out.println("XXX    XXXX   XXXXX        X   X");
@@ -16,8 +16,6 @@ public class LetterPrinter {
         System.out.println("XXX    XXXX     X          XXXXX");
         System.out.println();
         System.out.print("Who is your \"Advanced Programming\" instructor?\n  a.) Aj. Tipajin\n  b.) Aj. Suppawong\n  c.) Aj. Punyanuch");
-
-
 
     }
 }

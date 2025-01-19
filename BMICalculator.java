@@ -1,22 +1,20 @@
 import java.util.*;
-import java.text.DecimalFormat; //Class กำหนดจำนวนจุดทศนิยม
 
 public class BMICalculator {
     public static void main(String[] args) {
 
-        DecimalFormat df = new DecimalFormat("0.00"); //กำหนดจำนวนจุดทศนิยมที่ต้องการ
         Scanner sc = new Scanner(System.in); //เปิดใช้งานตัว Input0
 
         System.out.print("Enter weight in kilograms: ");
 
         double weight = sc.nextDouble(); //nextDouble() ใช้ในการ Input ค่าที่เป็น Double เท่านั้น
-        
         System.out.print("Enter height in meters: ");
         double height = sc.nextDouble(); 
 
         double bmi = weight / (height * height);
 
-        System.out.println("Your BMI is "+ df.format(bmi)); //ใข้ df.format ครอบ bmi เอาไว้เพื่อปัดทศนิยม bmi ตามที่เรากำหนดไว้
+        System.out.printf("Your BMI is %.2f",bmi); //ใข้ df.format ครอบ bmi เอาไว้เพื่อปัดทศนิยม bmi ตามที่เรากำหนดไว้
+        System.out.println();
 
         if(bmi < 18.5){
             System.out.println("Underweight");
@@ -33,3 +31,7 @@ public class BMICalculator {
     }
 
 }
+
+//Name: Naphat Phoruang
+//ID: 6787021
+//Section: 1
