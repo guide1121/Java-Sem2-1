@@ -18,4 +18,9 @@ public class WallPaperUnit {
     public void setLength(double length){
         this.length = length;
     }
+    public static void main(String[] args) {
+        WallPaperUnit wp = new WallPaperUnit("Guide", 12);
+        System.out.println(wp.getName());
+        System.out.println(wp.getLength());
+    }
 }
