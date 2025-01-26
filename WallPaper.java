@@ -1,3 +1,6 @@
+//Name: Naphat Phoruang
+//ID: 6787021
+//Section: 1
 import java.util.Scanner;
 public class WallPaper {
 	public static void main(String[] args) {
@@ -13,10 +16,11 @@ public class WallPaper {
         int sum_price = 0;
 		for(i=1; i<=n; i++){//row
 			for(j=1; j<=i; j++) { //col
-				System.out.print(j+" ");
+				System.out.print(j+" "); //Print ตามตำแหน่ง J
 			}
 			System.out.println();
 		}
+
 		System.out.println("=== Style 2 ===");
 		//put your code here
 		for(i=1; i<=n; i++){//row
