@@ -1,3 +1,6 @@
+//Name: Naphat Phoruang
+//ID: 6787021
+//Section: 1
 public class CovidReporter {
     public static void main(String[] args) {
         CovidProfile profile_1 = new CovidProfile();

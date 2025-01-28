@@ -1,3 +1,6 @@
+//Name: Naphat Phoruang
+//ID: 6787021
+//Section: 1
 public class CovidProfile {
     // Task 1 สร้าง class CovidProfile (CovidProfile.java) ที่มีattributes ตามนี้:
     private String date;
@@ -76,7 +79,8 @@ public class CovidProfile {
     public int getDeathCase(){
         return this.deathCases;
     }
-//
+//Task 4 เขียน method printCovidInfo() 
+
     public void printCovidInfo(){
         System.out.println(this.location + " at " + this.date);
         System.out.println("Accumulative Patient: " + this.accumulatedCases);
