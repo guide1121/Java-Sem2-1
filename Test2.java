@@ -1,12 +1,17 @@
 public class Test2 {
     public static void main(String[] args) {
+        
+        
+        double sum_col = 0;
+       double[][] data = {{1,2,3},{4,5,6},{7,8,6}};
+       for(int i = 0; i<data.length; i++){
+            double sum_row = 0;
+            for(int j = 0; j < data[i].length; j ++){
+                sum_row += data[i][j];
+            }
 
-       double[] data = new double[10];
-        System.out.println(data[1]);
-    //    for(int i = 0; i< data.length; i++){
-    //     data[i] = i * i;
-    //    }
-    //    System.out.println(data);
+            System.out.println(sum_row);
+       }
 
 
     }

@@ -1,7 +1,12 @@
+//Name: Naphat Phoruang
+//ID: 6787021
+//Section: 1
+import java.nio.channels.Pipe.SourceChannel;
+import java.util.*;
 public class BankTester {
 
 	public static void main(String[] args) {
-		
+		Scanner sc = new Scanner(System.in); 
 		//account information {account number, amount}
 		String[][] accountsStr = {
 		{"1228", "5067.15"}, {"3185", "9949.83"}, {"6377", "3953.06"}, {"7667", "4899.44"}, {"2722", "9537.86"}, {"9764", "9079.35"}, {"1971", "9723.04"}, {"6476", "4260.29"}, 
@@ -28,6 +33,7 @@ public class BankTester {
 		System.out.println("Balance of matching account: " + bangkokbank.find(2810).getBalance());
 		
 		//Put your Challenge code here and explain to LA
+
 
         System.out.println(bangkokbank.getTotalBalance()); //ดึงค่ารวมยอดเงินของทุกบัญชี
         System.out.println(bangkokbank.countBalanceAtLeast(5000)); //นับจำนวนบัญชีที่มียอดเงินน้อยกว่า 5000

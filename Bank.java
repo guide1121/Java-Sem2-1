@@ -1,3 +1,6 @@
+//Name: Naphat Phoruang
+//ID: 6787021
+//Section: 1
 import java.util.ArrayList;
 import java.util.List;
 
@@ -30,8 +33,8 @@ public class Bank {
 		//**************** YOUR CODE HERE****************
 		int counts = 0;
 		for(BankAccount a : accounts){
-			if (a.getBalance() < atLeast){ //ดึงจำนวนเงินแต่ละบัญชีด้วย .getBalance และหาบัญชีที่มีน้อยกว่าที่เรากำหนดไว 
-				counts += 1; //นับจำนวนบัญชีตามเงื่อนไข
+			if (a.getBalance() > atLeast){ //ดึงจำนวนเงินแต่ละบัญชีด้วย .getBalance และหาบัญชีที่มีน้อยกว่าที่เรากำหนดไว 
+				counts +=1; //นับจำนวนบัญชีตามเงื่อนไข
 			} 
 		}
 		return counts;
