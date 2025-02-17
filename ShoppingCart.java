@@ -47,7 +47,8 @@ public class ShoppingCart {
                 System.out.println("You are not eligible to purchase " + product.getName());
             }
         }else if(product instanceof MemberProduct){ // [CHALLENGE]
-            if(this.isMember){
+            MemberProduct memberProduct = (MemberProduct)product;
+            if(memberProduct.isMember(isMember)){
                 System.out.println(product.getName() + " added to cart");
                 products.add(product);
             }else{

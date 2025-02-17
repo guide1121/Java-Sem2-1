@@ -39,6 +39,6 @@
 	// TODO 4: toString method
 	@Override
 	public String toString() {
-		return "Name: " + super.getName() + ", price: " + super.getPrice() + ", Minimum Age: " + this.minimumAge;
+		return super.toString() + ", Minimum Age: " + this.minimumAge;
 	}
 }
