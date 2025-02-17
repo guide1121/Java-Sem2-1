@@ -1,4 +1,6 @@
-
+//Name: Naphat Phoruang
+//ID: 6787021
+//Section: 1
 import java.util.ArrayList;
 
 public class ShoppingCart {
@@ -37,7 +39,7 @@ public class ShoppingCart {
 	public void addProduct(Product product) {
         if(product instanceof AgeRestrictedProduct){
             AgeRestrictedProduct restrictedProduct = (AgeRestrictedProduct) product; //ถ้าสินค้าเป็น AgeRestricedProduct ให้แปลงจาก Product (Superclass) เป็น Subclass
-            if(getCustomerAge() >= restrictedProduct.getMinimumAge()){
+            if(restrictedProduct.isEligible(customerAge)){
                 System.out.println(product.getName() + " added to cart");
                 products.add(product);
             }
@@ -53,11 +55,11 @@ public class ShoppingCart {
             }
         }else if(product instanceof TimeProduct){ // [CHALLENGE]
             TimeProduct timeProduct = (TimeProduct) product;
-            if(this.time > timeProduct.getStartTime() && this.time < timeProduct.getEndTime()){
+            if(timeProduct.isInTime(time)){
                 System.out.println(product.getName() + " added to cart");
                 products.add(product);  
             }else{
-                System.out.println("You need to buy " + product.getName() + " between " + timeProduct.getStartTime() + " - " + timeProduct.getEndTime());
+                System.out.println("You need to buy " + product.getName() + " between " + timeProduct.getStartTime() + ".00 - " + timeProduct.getEndTime() + ".00");
             }
         }
         else{

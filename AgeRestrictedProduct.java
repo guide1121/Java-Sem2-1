@@ -1,3 +1,6 @@
+//Name: Naphat Phoruang
+//ID: 6787021
+//Section: 1
 /**
  * 
  * Modify this class to inherit from Product class
