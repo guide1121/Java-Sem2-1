@@ -28,6 +28,7 @@ public class ShapeTester {
 
        //Challenge
        System.out.println("---------Challenge---------");
+       
        Shape c1 = new Circle("red", 5);  
        System.out.println(c1);  // Run Circle's toString()
        System.out.println("Area is " + c1.getArea());  // Run Circle's getArea()

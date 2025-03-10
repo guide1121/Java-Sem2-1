@@ -1,3 +1,6 @@
+//Name: Naphat Phoruang
+//ID: 6787021
+//Section : 1
 public class Shape {
     // Private  variable
     private String color;
