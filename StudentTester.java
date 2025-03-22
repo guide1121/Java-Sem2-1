@@ -71,9 +71,9 @@ public class StudentTester {
 	public static void main(String[] args)
 	{
 		//Uncomment test case that you want to try for each task
-		// testTask1();
-		// testTask2();
-		// testChallenge();
+		testTask1();
+		testTask2();
+		testChallenge();
 	}
 	
 }

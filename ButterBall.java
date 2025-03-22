@@ -17,6 +17,6 @@ public class ButterBall extends Sphere implements Meltable,Comparable<Object3D>{
     }
 
     public Object3D convertToOtherShape(){ //แปลงจากรูปทรงหนึ่งไปอีกรูปทรงหนึ่ง โดยการคำนวณย้อนกลับจาก Volume ของ Object นี้ ให้ได้ตัวแปรในอีกรูปทรงหนึ่ง ตามสูตร
-        return new Cube(this.getName(), this.getMaterial(), Math.cbrt(this.getVolume())); //แปลงเป็น Sphere
+        return new Cube(this.getName(), this.getMaterial(), Math.cbrt(this.getVolume())); //แปลงเป็น Cube
     }
 }

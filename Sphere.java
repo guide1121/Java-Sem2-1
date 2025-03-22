@@ -17,9 +17,9 @@ public class Sphere extends Object3D{
     }
 
     public double getVolume(){
-        return (4*PI*Math.pow(this.radius,3))/3; //cube root
+        return (4*PI*Math.pow(this.radius,3))/3; //cube power
     }
 	public double getSurface(){
-        return 4*PI*Math.pow(this.radius,2); //squre root
+        return 4*PI*Math.pow(this.radius,2); //squre power
     }
 }

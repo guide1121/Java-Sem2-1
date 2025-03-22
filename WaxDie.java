@@ -1,3 +1,7 @@
+//Name: Naphat Phoruang
+//ID: 6787021
+//Section: 1
+
 public class WaxDie extends Cube implements  Meltable,Comparable<Object3D>{
 
     public WaxDie(String _name, double _edge){ // ใส่ Field ไปแค่ 2 ตัว และกำหนด Material Type ใน Super ให้เป็น Wax
@@ -5,7 +9,7 @@ public class WaxDie extends Cube implements  Meltable,Comparable<Object3D>{
     }
 
     public int compareTo(Object3D o) {
-        int vol_compare = Double.compare(this.getVolume(), o.getVolume()); //ตรวจสอบว่าเท่ากันมั้ย
+        int vol_compare = Double.compare(this.getSurface(), o.getSurface()); //ตรวจสอบว่าเท่ากันมั้ย
         if(vol_compare == 0){ //เท่ากัน => 0 มากกว่า => 1 น้อยกว่า => -1
             return this.getName().compareTo(o.getName());
         }

@@ -17,10 +17,10 @@ public class Cube extends Object3D{
     }
 
     public double getVolume(){
-        return Math.pow(this.edge,3); //cube root
+        return Math.pow(this.edge,3); //cube power
     }
 	public double getSurface(){
-        return 6*Math.pow(this.edge,2); //squre root
+        return 6*Math.pow(this.edge,2); //squre power
     }
 }
 

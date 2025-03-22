@@ -61,7 +61,7 @@ public abstract class Object3D {
 	 */
 	public double getDroppingPotentialEngery(double height)
 	{
-		double pe = this.getMass() * G * height;
+		double pe = this.getMass() * G * height; //E = mgh
         return pe;
 	}
 	
@@ -70,7 +70,7 @@ public abstract class Object3D {
 	 */
 	public boolean canFloat()
 	{
-		if(DENSITIES[this.matType.ordinal()] <= 1000){
+		if(DENSITIES[this.matType.ordinal()] <= 1000){ //water = 1000
             return true;
         }
         return false;
@@ -81,7 +81,7 @@ public abstract class Object3D {
 	 */
 	public boolean canFly()
 	{
-		if(DENSITIES[this.matType.ordinal()] <= 1.225){
+		if(DENSITIES[this.matType.ordinal()] <= 1.225){ //air = 1.225
             return true;
         }
         return false;
