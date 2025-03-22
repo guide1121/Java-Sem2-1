@@ -4,7 +4,7 @@ public class MoreThanBalanceException extends Exception{
         super(messege);
     }
     MoreThanBalanceException(double amount){
-        super("Your amount is more than amount: ");
+        super("Your amount is more than amount.");
         this.amount = amount;
     }
     public double getAmount(){

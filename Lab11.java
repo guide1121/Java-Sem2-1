@@ -1,4 +1,7 @@
 import java.util.Scanner;
+
+import javax.management.monitor.MonitorSettingException;
+
 import java.util.InputMismatchException;
 import java.io.BufferedReader;
 import java.io.File;
@@ -16,15 +19,15 @@ public class Lab11 {
 	   
 		if(amount < 0){
             //Challenge
-            throw new LessThanZeroException(amount);
+            // throw new LessThanZeroException(amount);
             //Lab
-            // throw new Exception("You must enter amount > 0");
+            throw new Exception("You must enter amount > 0");
         }
         else if(amount > balance){
             //Challenge
-            throw new MoreThanBalanceException(amount);
+            // throw new MoreThanBalanceException(amount);
             //Lab
-            // throw new Exception("Insufficient amount to withdraw");
+            throw new Exception("Insufficient amount to withdraw");
         }
 		
 		//-------------------------//
@@ -83,10 +86,21 @@ public class Lab11 {
 	        int bal = reader2.nextInt(); 
 	        withDraw(bal);
 	        
-		}catch (Exception e){
+		}
+        //Challenge
+        // catch(LessThanZeroException e){
+        //     System.out.println("Invalid amount (less than 0): " + e.getAmount());
+        // }
+        
+        // catch(MoreThanBalanceException e){
+        //     System.out.println("Invalid amount (more than balance): " + e.getAmount());
+        // }
+        //lab
+        catch (Exception e){
 			e.printStackTrace();
 			
 		}
+
 
 		
 
