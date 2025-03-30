@@ -1,0 +1,72 @@
+[
+  {
+    "title": "Zack and Miri Make a Porno",
+    "genre": "Romance",
+    "leadStudio": "The Weinstein Company",
+    "audienceScore": 70.0,
+    "profitability": 1.747541667,
+    "rottenTomatoesScore": 64.0,
+    "worldwideGross": 41.94,
+    "year": 2008
+  },
+  {
+    "title": "Waitress",
+    "genre": "Romance",
+    "leadStudio": "Independent",
+    "audienceScore": 67.0,
+    "profitability": 11.0897415,
+    "rottenTomatoesScore": 89.0,
+    "worldwideGross": 22.18,
+    "year": 2007
+  },
+  {
+    "title": "Twilight: Breaking Dawn",
+    "genre": "Romance",
+    "leadStudio": "Independent",
+    "audienceScore": 68.0,
+    "profitability": 6.383363636,
+    "rottenTomatoesScore": 26.0,
+    "worldwideGross": 702.17,
+    "year": 2011
+  },
+  {
+    "title": "Twilight",
+    "genre": "Romance",
+    "leadStudio": "Summit",
+    "audienceScore": 82.0,
+    "profitability": 10.18002703,
+    "rottenTomatoesScore": 49.0,
+    "worldwideGross": 376.66,
+    "year": 2008
+  },
+  {
+    "title": "P.S. I Love You",
+    "genre": "Romance",
+    "leadStudio": "Independent",
+    "audienceScore": 82.0,
+    "profitability": 5.103116833,
+    "rottenTomatoesScore": 21.0,
+    "worldwideGross": 153.09,
+    "year": 2007
+  },
+  {
+    "title": "Music and Lyrics",
+    "genre": "Romance",
+    "leadStudio": "Warner Bros.",
+    "audienceScore": 70.0,
+    "profitability": 3.64741055,
+    "rottenTomatoesScore": 63.0,
+    "worldwideGross": 145.9,
+    "year": 2007
+  },
+  {
+    "title": "Jane Eyre",
+    "genre": "Romance",
+    "leadStudio": "Universal",
+    "audienceScore": 77.0,
+    "profitability": 0.0,
+    "rottenTomatoesScore": 85.0,
+    "worldwideGross": 30.15,
+    "year": 2011
+  }
+]

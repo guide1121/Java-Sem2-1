@@ -1,0 +1,42 @@
+[
+  {
+    "title": "WALL-E",
+    "genre": "Animation",
+    "leadStudio": "Disney",
+    "audienceScore": 89.0,
+    "profitability": 2.896019067,
+    "rottenTomatoesScore": 96.0,
+    "worldwideGross": 521.28,
+    "year": 2008
+  },
+  {
+    "title": "Tangled",
+    "genre": "Animation",
+    "leadStudio": "Disney",
+    "audienceScore": 88.0,
+    "profitability": 1.365692308,
+    "rottenTomatoesScore": 89.0,
+    "worldwideGross": 355.01,
+    "year": 2010
+  },
+  {
+    "title": "Gnomeo and Juliet",
+    "genre": "Animation",
+    "leadStudio": "Disney",
+    "audienceScore": 52.0,
+    "profitability": 5.387972222,
+    "rottenTomatoesScore": 56.0,
+    "worldwideGross": 193.97,
+    "year": 2011
+  },
+  {
+    "title": "Gnomeo and Juliet",
+    "genre": "Animation",
+    "leadStudio": "Disney",
+    "audienceScore": 52.0,
+    "profitability": 5.387972222,
+    "rottenTomatoesScore": 56.0,
+    "worldwideGross": 193.97,
+    "year": 2011
+  }
+]
