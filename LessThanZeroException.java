@@ -1,3 +1,7 @@
+//Name: Naphat Phoruang
+//ID: 6787021
+//Section: 1
+
 public class LessThanZeroException extends Exception{
     private double amount;
     LessThanZeroException(String messege){ 
